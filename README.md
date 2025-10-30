@@ -1,4 +1,3 @@
-
 # 🪄 Magic Wand Gesture Recognition
 
 A gesture recognition system using accelerometer and gyroscope data to classify 3 magic gestures:  
