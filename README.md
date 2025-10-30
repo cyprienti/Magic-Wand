@@ -1,7 +1,7 @@
 # Magic Wand Gesture Recognition
 
 A gesture recognition system using accelerometer and gyroscope data to classify 3 magic gestures:  
-**Stone **, **Paper **, and **Scissors ** — implemented with a Random Forest classifier.
+Stone , Paper , and Scissors  — implemented with a Random Forest classifier.
 
 ---
 
@@ -102,4 +102,5 @@ Predicts the gesture with the trained model
 
 
 Outputs predicted class (stone/paper/scissors)
+
 
