@@ -1,11 +1,11 @@
-# 🪄 Magic Wand Gesture Recognition
+# Magic Wand Gesture Recognition
 
 A gesture recognition system using accelerometer and gyroscope data to classify 3 magic gestures:  
 **Stone 🪨**, **Paper 📄**, and **Scissors ✂️** — implemented with a Random Forest classifier.
 
 ---
 
-## 🎯 Goal
+##  Goal
 
 Build a machine learning pipeline that:
 - Records wand gestures via motion sensors
@@ -15,17 +15,17 @@ Build a machine learning pipeline that:
 
 ---
 
-## 📦 Features
+## Features
 
-- 📲 Records motion sensor data (acceleration + gyroscope)
-- 📊 Visualizes sensor data over time
-- 🧼 Preprocesses and standardizes features
-- 🌲 Trains and evaluates a Random Forest model
-- 🧙 Live prediction using trained model
+-  Records motion sensor data (acceleration + gyroscope)
+-  Visualizes sensor data over time
+-  Preprocesses and standardizes features
+-  Trains and evaluates a Random Forest model
+-  Live prediction using trained model
 
 ---
 
-## 🧰 Tech Stack
+##  Tech Stack
 
 | Layer     | Tool / Library              |
 |-----------|-----------------------------|
@@ -36,7 +36,7 @@ Build a machine learning pipeline that:
 
 ---
 
-## 📁 File Overview
+##  File Overview
 ├── recordings/ # Raw gesture data (CSV)
 ├── features/ # Extracted feature vectors
 ├── graphs/ # Saved plots of motion data
@@ -51,21 +51,21 @@ Build a machine learning pipeline that:
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
-### 1. 🔧 Install Dependencies
+### 1.  Install Dependencies
 
 ```bash
 pip install pandas matplotlib scikit-learn joblib
 ```
 
-2. 📥 Collect and Save Gesture Recordings
+2.  Collect and Save Gesture Recordings
 Each recording is saved as a CSV with columns:
 time, accX, accY, accZ, gyroX, gyroY, gyroZ
 
 Save recordings to the recordings/ folder. Make sure filenames contain "Stone", "Paper", or "Scissors" to label them correctly.
 
-3. ⚙️ Preprocess Data
+3.  Preprocess Data
 
 ```bash
 python preprocess.py
@@ -76,7 +76,7 @@ Adds gesture labels
 
 Saves result to features/features.csv
 
-4. 🧠 Train the Classifier
+4.  Train the Classifier
 ```bash
 python train_classifier.py
 ```
@@ -90,7 +90,7 @@ Evaluates performance
 
 Saves random_forest_model.pkl
 
-5. 🔮 Predict on New Gestures
+5.  Predict on New Gestures
 ```bash
 python yourcode.py
 ```
@@ -99,5 +99,6 @@ Loads a new CSV from recordings/
 Extracts features
 
 Predicts the gesture with the trained model
+
 
 Outputs predicted class (stone/paper/scissors)
